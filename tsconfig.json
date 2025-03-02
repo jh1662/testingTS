@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS", // ESNext commonjs Node16
+      "strict": true,
+      "target": "ES2016"
+    },
+
+    //: https://github.com/TypeStrong/ts-node?tab=readme-ov-file#commonjs-vs-native-ecmascript-modules
+    // "ts-node": {
+    //   "compilerOptions": {
+    //     "module": "CommonJS"
+    //   }
+    // },
+
+    //: https://github.com/TypeStrong/ts-node?tab=readme-ov-file#module-type-overrides
+    // "ts-node": {
+    //     "transpileOnly": true,
+    //     "moduleTypes": {
+    //       "webpack.config.ts": "cjs",
+    //       // Globs are also supported with the same behavior as tsconfig "include"
+    //       "webpack-config-scripts/**/*": "cjs"
+    //     }
+    // },
+
+    "exclude": ["node_modules"]
+}

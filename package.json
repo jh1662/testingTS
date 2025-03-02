@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "rootDir": "./",
+  "outDir": "./",
+  "scripts": {
+    "test": "ts-node ./script.ts",
+    "test2": "npx ts-node /script.ts",
+    "test3": "ts-node --experimental-modules ./script.ts",
+    "test4": "ts-node-esm ./script.ts",
+    "test5": "node --loader ts-node-esm ./script.ts",
+    "test6": "node --loader ts-node/esm ./script.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
